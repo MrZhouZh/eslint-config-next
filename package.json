@@ -7,7 +7,11 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "lint": "eslint . --config=index.js",
+    "publish": "npm publish",
+    "publish:major": "npm version major",
+    "publish:minor": "npm version minor",
+    "publish:patch": "npm version patch"
   },
   "keywords": [
     "eslint",
@@ -17,7 +21,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrZhouZh/eslint-config-next.git"
+    "url": "git+https://github.com/MrZhouZh/eslint-config-next.git"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
@@ -31,5 +35,9 @@
     "next": "^13.4.19",
     "react": "^18.2.0",
     "typescript": "^5.2.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/MrZhouZh/eslint-config-next/issues"
+  },
+  "homepage": "https://github.com/MrZhouZh/eslint-config-next#readme"
 }
